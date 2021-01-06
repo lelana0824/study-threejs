@@ -7,7 +7,7 @@ const port: number = 3000
 class App {
     private server: http.Server
     private port: number
-
+    
     constructor(port: number) {
         this.port = port
         const app = express()
